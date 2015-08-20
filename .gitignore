@@ -1,0 +1,5 @@
+node_modules
+src/jspm_packages
+dist
+aws-credentials.json
+.awspublish-*

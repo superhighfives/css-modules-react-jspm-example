@@ -1,0 +1,27 @@
+{
+  "jspm": {
+    "directories": {
+      "baseURL": "src"
+    },
+    "dependencies": {
+      "css": "npm:jspm-loader-css@^0.1.4",
+      "css-modules": "npm:jspm-loader-css-modules@^0.1.2",
+      "react": "npm:react@^0.14.0-beta3",
+      "react-dom": "npm:react-dom@^0.14.0-beta3"
+    },
+    "devDependencies": {
+      "babel": "npm:babel-core@^5.1.13",
+      "babel-runtime": "npm:babel-runtime@^5.1.13",
+      "core-js": "npm:core-js@^0.9.4"
+    }
+  },
+  "dependencies": {
+    "jspm": "^0.15.7"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "browser-sync": "^2.8.2",
+    "require-dir": "^0.3.0",
+    "gulp-postcss": "^5.1.10"
+  }
+}
