@@ -19,6 +19,7 @@ System.config({
     "babel": "npm:babel-core@5.8.19",
     "babel-runtime": "npm:babel-runtime@5.8.19",
     "core-js": "npm:core-js@0.9.18",
+    "css": "npm:jspm-loader-css@0.1.4",
     "css-global": "npm:jspm-loader-css@0.1.4",
     "css-modules": "npm:jspm-loader-css-modules@0.1.2",
     "jspm-loader-css": "npm:jspm-loader-css@0.1.4",
@@ -79,8 +80,7 @@ System.config({
     },
     "npm:core-js@1.1.0": {
       "fs": "github:jspm/nodelibs-fs@0.1.2",
-      "process": "github:jspm/nodelibs-process@0.1.1",
-      "systemjs-json": "github:systemjs/plugin-json@0.1.0"
+      "process": "github:jspm/nodelibs-process@0.1.1"
     },
     "npm:core-util-is@1.0.1": {
       "buffer": "github:jspm/nodelibs-buffer@0.1.0"
