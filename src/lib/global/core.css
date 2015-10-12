@@ -1,6 +1,3 @@
-/*@-webkit-keyframes repaint {from { padding: 0; } to { padding: 0; }}
-body { -webkit-animation: repaint infinite 1s; }*/
-
 body {
   background: #ccc;
 }

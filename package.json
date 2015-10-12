@@ -4,19 +4,19 @@
       "baseURL": "src"
     },
     "dependencies": {
-      "css": "npm:jspm-loader-css@^0.1.4",
-      "css-modules": "npm:jspm-loader-css-modules@^0.1.2",
+      "css": "npm:jspm-loader-css@^1.0.0",
+      "css-modules": "npm:jspm-loader-css-modules@^1.0.0",
       "react": "npm:react@^0.14.0-beta3",
       "react-dom": "npm:react-dom@^0.14.0-beta3"
     },
     "devDependencies": {
-      "babel": "npm:babel-core@^5.1.13",
-      "babel-runtime": "npm:babel-runtime@^5.1.13",
-      "core-js": "npm:core-js@^0.9.4"
+      "babel": "npm:babel-core@^5.8.24",
+      "babel-runtime": "npm:babel-runtime@^5.8.24",
+      "core-js": "npm:core-js@^1.1.4"
     }
   },
   "dependencies": {
-    "jspm": "^0.15.7"
+    "jspm": "^0.16.2"
   },
   "devDependencies": {
     "gulp": "^3.9.0",

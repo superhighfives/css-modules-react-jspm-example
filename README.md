@@ -14,6 +14,8 @@ There are three methods for requiring CSS:
 - Using `!css-global` (which parses via `jspm-loader-css`)
 - Using `!css-modules` (which parses via `jspm-loader-css-modules`)
 
+Usng the import line: `import styles from './header.css!css-modules'`
+
 For example:
 
 ```js
