@@ -9,12 +9,15 @@ A working example of [CSS Modules][css-modules], [React][react] and [JSPM][jspm]
 - Run `npm install`
 - Run `jspm install`
 
-There are three methods for requiring CSS:
+There are three methods for loading CSS:
 - Using `!` (which parses via `css.js`)
 - Using `!css-global` (which parses via `jspm-loader-css`)
 - Using `!css-modules` (which parses via `jspm-loader-css-modules`)
 
-For example:
+You can read a little more about custom loaders here:
+[https://github.com/geelen/jspm-loader-css#customize-your-own-loader](https://github.com/geelen/jspm-loader-css#customize-your-own-loader)
+
+And here's an example:
 
 ```js
 import React from 'react'
@@ -28,6 +31,12 @@ export default class Header extends React.Component {
       <pre><code>CSS Modules + React + JSPM</code></pre>
     </div>
   }
+}
+```
+
+```css
+.header {
+  height: 200px;
 }
 ```
 
